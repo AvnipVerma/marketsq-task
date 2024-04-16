@@ -1,0 +1,297 @@
+.boss{
+    /* height: 100vh; */
+    /* width: 100%; */
+}
+
+.box1 {
+    margin-top: 1rem;
+    background-color: #D9D9D9;
+    height: 60vh;
+    width: 100%;
+}
+
+.boxcontainer {
+
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    background-color: #D9D9D9;
+
+    display: inline-block;
+
+    margin-right: 5px;
+
+}
+
+.students {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+
+}
+
+
+.allContainer {
+    display: flex;
+
+}
+
+.cardContainer {
+    width: 300px;
+
+    height: 400px;
+
+    border: 1px solid #D9D9D9;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+.cardTop {
+    height: 80%;
+
+    background-color: #D9D9D9;
+
+}
+
+.cardBottom {
+    height: 20%;
+
+    background-color: #F2F2F2;
+
+}
+
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.text1 {
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.text2 {
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+
+}
+
+.review {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+
+}
+
+.boxy1 {
+    background-color: #F2F2F2;
+    padding: 20px;
+
+    width: 28%;
+    height: 10vh;
+    margin-top: 1rem;
+}
+
+.linee {
+    height: 1px;
+    background-color: black;
+    margin: 15px 0;
+
+}
+
+.amitbro {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.text3 {}
+
+.blackContainer {
+    background-color: black;
+    margin-top: 4rem;
+    height: 25vh;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.text11 {
+    color: white;
+    font-size: 1.3rem;
+    word-spacing: 0.2em;
+}
+
+.botttomtext {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-top: 1rem; */
+}
+
+.button {
+    border: none;
+    /* background-color: transparent; */
+    cursor: pointer;
+    padding: 0.9rem;
+    font-weight: 600;
+    font-size: 1 rem;
+}
+
+.buttonstyling {
+
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+@media (max-width: 768px) {
+    .box1 {
+        margin-top: 1rem;
+        background-color: #D9D9D9;
+        width: 100%;
+        height: 20vh;
+        padding: 1rem; /* Added padding for spacing */
+    }
+
+    .boxcontainer {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+       
+        /* flex-wrap: wrap; Allow flex items to wrap */
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #D9D9D9;
+        margin-right: 5px;
+        margin-bottom: 5px; /* Added margin bottom */
+    }
+
+    .students {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.4rem;
+        text-align: center; /* Center text */
+    }
+
+    .allContainer {
+        display: flex;
+        justify-content: center; /* Center items */
+        margin-bottom: 1rem; /* Added margin bottom */
+    }
+
+    .cardContainer {
+        width: 90%; /* Adjusted width */
+        max-width: 300px; /* Max width */
+        border: 1px solid #D9D9D9;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 1rem; /* Added margin bottom */
+    }
+
+    .line {
+        display: flex;
+        flex-direction: column; /* Stacked layout */
+        justify-content: center; /* Center items */
+        margin-top: 1rem;
+    }
+
+    .text1, .text2 {
+        padding-left: 1rem;
+        padding-top: 0.4rem;
+        text-align: center; /* Center text */
+    }
+
+    .review {
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.4rem;
+        text-align: center; /* Center text */
+    }
+
+    .boxy1 {
+        background-color: #F2F2F2;
+        padding: 20px;
+        width: 90%; /* Adjusted width */
+        max-width: 300px; /* Max width */
+        margin-top: 1rem;
+    }
+
+    .linee {
+        height: 1px;
+        background-color: black;
+        margin: 15px 0;
+    }
+
+    .amitbro {
+        font-weight: 600;
+        font-size: 1.2rem;
+        text-align: center; /* Center text */
+    }
+
+    .text3 {
+        text-align: center; /* Center text */
+    }
+
+    .blackContainer {
+        background-color: black;
+        margin-top: 4rem;
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    .text11 {
+        color: white;
+        font-size: 1.3rem;
+        word-spacing: 0.2em;
+        text-align: center; /* Center text */
+    }
+
+    .botttomtext {
+        display: flex;
+        justify-content: center; /* Center items */
+        flex-wrap: wrap; /* Allow flex items to wrap */
+    }
+
+    .button {
+        border: none;
+        cursor: pointer;
+        padding: 0.9rem;
+        font-weight: 600;
+        font-size: 1rem;
+        width: 100%; /* Make button full width */
+        margin-top: 0.5rem; /* Added margin top */
+    }
+
+    .buttonstyling {
+        padding: 30px;
+        display: flex;
+        justify-content: center; /* Center items */
+        gap: 1rem; /* Adjusted gap */
+    }
+}

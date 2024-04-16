@@ -1,0 +1,85 @@
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0.9rem;
+    font-weight: 900;
+    font-size: 1 rem;
+
+}
+
+.container4 {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+}
+
+.container6 {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.container5{
+    display: flex;
+    gap: 1rem;
+}
+.container7 {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.icon {
+    width: 1rem;
+    height: 1rem;
+    /* padding-top: 0.51rem; */
+}
+
+.line {
+    border-bottom: 1px solid white;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1);
+    padding-top: 0.4rem;
+  }
+  
+  .glowLogin {
+    animation: blink 2s linear infinite;
+  }
+  
+  .blink {
+    opacity: 1;
+  }
+  
+  @keyframes blink {
+    from, to {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .container2 {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        gap: 29rem;
+
+    }
+
+    .container5 {
+        /* gap: 0.5rem; */
+    }
+}
+  

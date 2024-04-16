@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.container2 {
+  display: flex;
+  flex-direction: column;
+   
+  }
+  .container3 {
+    display: flex;
+    gap: 1rem; 
+    }
+  .box {
+    border: 1px solid #D9D9D9;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+    .input {
+      margin-bottom: 2rem;
+      padding-left: 4rem;
+      padding-right: 10rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-size: 1.2rem;
+      border: 1px solid #D9D9D9;
+    
+    }
+    .input3 {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      padding-left: 4rem;
+      padding-right: 10rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-size: 1.2rem;
+      border: 1px solid #D9D9D9;
+    
+    }
+  .input2 {
+    /* margin-bottom: 2rem; */
+    padding-left: 4rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    border: 1px solid #D9D9D9;
+   
+  }
+  
+  .button {
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .button2 {
+    padding: 5px 15px;
+    height: 7.5vh;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .text1{
+    padding-top: 2rem;
+    font-weight: 400;
+    word-spacing: 0.7em;
+  }
+  .text2{
+ padding-top: 0.5rem;
+    padding-left: 1rem;
+    font-weight: 400;
+    word-spacing: 0.7em;
+  }
+
+.ResendButton{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: blue;
+}
+.registerButton{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: blue;
+}

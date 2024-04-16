@@ -1,0 +1,168 @@
+.container{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 124%;
+}
+.searchContainer {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    /* background-color: #ccc; */
+  }
+  .insideContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80%;
+    height: 5vh;
+   
+    margin-top: 1rem
+  }
+  .iconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+  }
+  
+  .searchIcon,
+  .filterIcon {
+    color: #555;
+  }
+  
+  .searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 10px; /* Adjust padding to leave space for the icon */
+  }
+  
+  .searchInput::placeholder {
+    color: #aaa;
+  }
+ 
+  .box {
+    border: 1px solid #D9D9D9;
+    flex-direction: column;
+    padding: 2rem;
+    display: flex;
+    /* align-items: center; */
+    width: 76%;
+    margin-top: 1rem;
+    /* padding-top: rem; */
+  }
+  .button {
+    background-color: black;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .name{
+    font-size: 1.6rem;
+  font-weight: 600;
+  }
+  .container2{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30rem;
+    width: 100%;
+  }
+  .left{
+display: flex;
+flex-direction: column;
+gap: 0.2rem;
+  }
+  .module{
+    font-size: 1rem;
+    word-spacing: 0.2em;
+  font-weight: 600;
+  }
+  .right{
+    display: flex;
+    align-items: center;
+  }
+ 
+
+  @media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* Adjusted width for better fit on mobile */
+        padding: 1rem; /* Added padding for better spacing */
+    }
+    
+    .searchContainer {
+        width: 100%;
+        margin-bottom: 1rem; /* Added margin bottom for better spacing */
+    }
+    
+    .insideContainer {
+        width: 100%;
+        height: auto; /* Changed height to auto for better adaptability */
+        margin-top: 0.5rem; /* Adjusted margin top for better spacing */
+        padding: 8px; /* Adjusted padding for better spacing */
+    }
+    
+    .iconWrapper {
+        padding: 0 5px; /* Adjusted padding for better spacing */
+    }
+    
+    .searchInput {
+        flex: 1;
+        border: none;
+        outline: none;
+        padding-left: 8px; /* Adjusted padding for better spacing */
+        font-size: 0.9rem; /* Reduced font size for mobile view */
+    }
+    
+    .box {
+        border: 1px solid #D9D9D9;
+        flex-direction: column;
+        padding: 1.5rem; /* Adjusted padding for better spacing */
+        width: 100%; /* Adjusted width for better fit on mobile */
+    }
+    
+    .button {
+        background-color: black;
+        color: white;
+        padding: 0.5rem 1.5rem; /* Adjusted padding for better spacing */
+        font-size: 0.9rem; /* Reduced font size for mobile view */
+    }
+    
+    .name {
+        font-size: 1.4rem; /* Reduced font size for mobile view */
+        font-weight: 600;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: column; /* Changed to column for mobile view */
+        gap: 1.5rem; /* Adjusted gap for better spacing */
+        width: 100%;
+    }
+    
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem; /* Adjusted gap for better spacing */
+    }
+    
+    .module {
+        font-size: 0.9rem; /* Reduced font size for mobile view */
+        word-spacing: 0.1em; /* Adjusted word-spacing for better readability */
+        font-weight: 600;
+    }
+    
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Centered button for mobile view */
+        margin-top: 1rem; /* Adjusted margin top for better spacing */
+    }
+}
