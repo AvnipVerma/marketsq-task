@@ -9,6 +9,9 @@ function Register() {
   const handleLoginClick = () => {
     Navigate('/login')
   }
+  const handleRegister=()=>{
+    Navigate('/login')
+  }
   return (
     <div>
       <Navbar />
@@ -22,7 +25,7 @@ function Register() {
           </div>
           <input className={styles.input3} type="text" placeholder="OTP" />
 
-          <button className={styles.button}>LOGIN</button>
+          <button className={styles.button} onClick={handleRegister}>LOGIN</button>
           <div className={styles.text1}>Don't have an Account? <button onClick={handleLoginClick} className={styles.registerButton}>Register</button></div>
         </div>
       </div>
