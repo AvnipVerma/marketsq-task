@@ -148,7 +148,7 @@
 
 .button {
     border: none;
-    /* background-color: transparent; */
+ 
     cursor: pointer;
     padding: 0.9rem;
     font-weight: 600;
@@ -168,7 +168,7 @@
         background-color: #D9D9D9;
         width: 90%;
         height: 30vh;
-        padding: 1rem; /* Added padding for spacing */
+        padding: 1rem; 
     }
 
     .boxcontainer {
@@ -176,7 +176,7 @@
         display: flex;
         justify-content: center;
        
-        /* flex-wrap: wrap; Allow flex items to wrap */
+        
     }
 
     .dot {
@@ -185,7 +185,7 @@
         border-radius: 50%;
         background-color: #D9D9D9;
         margin-right: 5px;
-        margin-bottom: 5px; /* Added margin bottom */
+        margin-bottom: 5px; 
     }
 
     .students {
@@ -194,35 +194,35 @@
         justify-content: center;
         font-family: 'Times New Roman', Times, serif;
         font-size: 1.4rem;
-        text-align: center; /* Center text */
+        text-align: center; 
     }
 
     .allContainer {
         display: flex;
-        justify-content: center; /* Center items */
-        margin-bottom: 1rem; /* Added margin bottom */
+        justify-content: center; 
+        margin-bottom: 1rem; 
     }
 
     .cardContainer {
-        width: 90%; /* Adjusted width */
-        max-width: 300px; /* Max width */
+        width: 90%; 
+        max-width: 300px; 
         border: 1px solid #D9D9D9;
         border-radius: 10px;
         overflow: hidden;
-        margin-bottom: 1rem; /* Added margin bottom */
+        margin-bottom: 1rem; 
     }
 
     .line {
         display: flex;
-        flex-direction: column; /* Stacked layout */
-        justify-content: center; /* Center items */
+        flex-direction: column; 
+        justify-content: center; 
         margin-top: 1rem;
     }
 
     .text1, .text2 {
         padding-left: 1rem;
         padding-top: 0.4rem;
-        text-align: center; /* Center text */
+        text-align: center;
     }
 
     .review {
@@ -231,14 +231,14 @@
         justify-content: center;
         font-family: 'Times New Roman', Times, serif;
         font-size: 1.4rem;
-        text-align: center; /* Center text */
+        text-align: center; 
     }
 
     .boxy1 {
         background-color: #F2F2F2;
         padding: 20px;
-        width: 90%; /* Adjusted width */
-        max-width: 300px; /* Max width */
+        width: 90%; 
+        max-width: 300px; 
         margin-top: 1rem;
     }
 
@@ -251,11 +251,11 @@
     .amitbro {
         font-weight: 600;
         font-size: 1.2rem;
-        text-align: center; /* Center text */
+        text-align: center; 
     }
 
     .text3 {
-        text-align: center; /* Center text */
+        text-align: center;
     }
 
     .blackContainer {
@@ -270,13 +270,13 @@
         color: white;
         font-size: 1.3rem;
         word-spacing: 0.2em;
-        text-align: center; /* Center text */
+        text-align: center; 
     }
 
     .botttomtext {
         display: flex;
-        justify-content: center; /* Center items */
-        flex-wrap: wrap; /* Allow flex items to wrap */
+        justify-content: center; 
+        flex-wrap: wrap; 
     }
 
     .button {
@@ -285,14 +285,14 @@
         padding: 0.9rem;
         font-weight: 600;
         font-size: 1rem;
-        width: 100%; /* Make button full width */
-        margin-top: 0.5rem; /* Added margin top */
+        width: 100%; 
+        margin-top: 0.5rem; 
     }
 
     .buttonstyling {
         padding: 30px;
         display: flex;
-        justify-content: center; /* Center items */
-        gap: 1rem; /* Adjusted gap */
+        justify-content: center; 
+        gap: 1rem; 
     }
 }

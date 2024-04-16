@@ -7,11 +7,11 @@ import { useAuth } from '../../AuthContext/AuthContext';
 function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const { login } = useAuth(); // Get the login function from AuthContext
+  const { login } = useAuth(); 
   const Navigate = useNavigate();
 
   const handleLoginClick = () => {
-    login(); // Call the login function to set isAuthenticated to true
+    login(); 
     Navigate('/profile');
   };
 

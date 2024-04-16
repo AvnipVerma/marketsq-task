@@ -15,13 +15,13 @@ function Navbar() {
 
   const handleButtonClick = (path) => {
     if (!isAuthenticated) {
-      // Set login button to blink
+      
       setLoginBlink(true);
   
       setTimeout(() => {
         setLoginBlink(false);
         console.log('Login button blinked');
-      }, 1000); // Remove blinking effect after 1 second
+      }, 1000); 
     } else {
       navigateTo(path);
     }

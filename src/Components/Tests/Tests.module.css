@@ -38,7 +38,7 @@
     flex: 1;
     border: none;
     outline: none;
-    padding-left: 10px; /* Adjust padding to leave space for the icon */
+    padding-left: 10px; 
   }
   
   .searchInput::placeholder {
@@ -93,76 +93,76 @@ gap: 0.2rem;
     .container {
         display: flex;
         flex-direction: column;
-        width: 100%; /* Adjusted width for better fit on mobile */
-        padding: 1rem; /* Added padding for better spacing */
+        width: 100%;
+        padding: 1rem; 
     }
     
     .searchContainer {
         width: 100%;
-        margin-bottom: 1rem; /* Added margin bottom for better spacing */
+        margin-bottom: 1rem; 
     }
     
     .insideContainer {
         width: 100%;
-        height: auto; /* Changed height to auto for better adaptability */
-        margin-top: 0.5rem; /* Adjusted margin top for better spacing */
-        padding: 8px; /* Adjusted padding for better spacing */
+        height: auto; 
+        margin-top: 0.5rem; 
+        padding: 8px; 
     }
     
     .iconWrapper {
-        padding: 0 5px; /* Adjusted padding for better spacing */
+        padding: 0 5px; 
     }
     
     .searchInput {
         flex: 1;
         border: none;
         outline: none;
-        padding-left: 8px; /* Adjusted padding for better spacing */
-        font-size: 0.9rem; /* Reduced font size for mobile view */
+        padding-left: 8px; 
+        font-size: 0.9rem; 
     }
     
     .box {
         border: 1px solid #D9D9D9;
         flex-direction: column;
-        padding: 1.5rem; /* Adjusted padding for better spacing */
-        width: 100%; /* Adjusted width for better fit on mobile */
+        padding: 1.5rem; 
+        width: 100%; 
     }
     
     .button {
         background-color: black;
         color: white;
-        padding: 0.5rem 1.5rem; /* Adjusted padding for better spacing */
-        font-size: 0.9rem; /* Reduced font size for mobile view */
+        padding: 0.5rem 1.5rem; 
+        font-size: 0.9rem;
     }
     
     .name {
-        font-size: 1.4rem; /* Reduced font size for mobile view */
+        font-size: 1.4rem; 
         font-weight: 600;
     }
     
     .container2 {
         display: flex;
-        flex-direction: column; /* Changed to column for mobile view */
-        gap: 1.5rem; /* Adjusted gap for better spacing */
+        flex-direction: column; 
+        gap: 1.5rem; 
         width: 100%;
     }
     
     .left {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem; /* Adjusted gap for better spacing */
+        gap: 0.5rem; 
     }
     
     .module {
-        font-size: 0.9rem; /* Reduced font size for mobile view */
-        word-spacing: 0.1em; /* Adjusted word-spacing for better readability */
+        font-size: 0.9rem;
+        word-spacing: 0.1em; 
         font-weight: 600;
     }
     
     .right {
         display: flex;
         align-items: center;
-        justify-content: center; /* Centered button for mobile view */
-        margin-top: 1rem; /* Adjusted margin top for better spacing */
+        justify-content: center; 
+        margin-top: 1rem; 
     }
 }

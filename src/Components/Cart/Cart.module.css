@@ -105,49 +105,49 @@
 
   @media (max-width: 768px) {
     .container {
-      height: auto; /* Changed height to auto for better adaptability */
-      padding: 2rem 1rem; /* Adjusted padding for better spacing on mobile */
+      height: auto; 
+      padding: 2rem 1rem; 
     }
   
     .container2 {
-      flex-direction: column; /* Changed to column for better layout on mobile */
-      gap: 1rem; /* Adjusted gap for better spacing on mobile */
+      flex-direction: column; 
+      gap: 1rem; 
     }
   
     .box {
-      height: auto; /* Changed height to auto for better adaptability */
-      margin-top: 1rem; /* Adjusted margin top for better spacing on mobile */
-      border: none; /* Removed border for better mobile appearance */
+      height: auto;
+      margin-top: 1rem; 
+      border: none; 
     }
   
     .box2 {
-      width: 100%; /* Adjusted width for better fit on mobile */
-      gap: 1rem; /* Adjusted gap for better spacing on mobile */
-      padding: 1rem 0; /* Adjusted padding for better spacing on mobile */
-      margin-top: 1rem; /* Adjusted margin top for better spacing on mobile */
+      width: 100%; 
+      gap: 1rem; 
+      padding: 1rem 0;
+      margin-top: 1rem; 
     }
   
     .text1 {
-      font-size: 1.2rem; /* Reduced font size for mobile view */
+      font-size: 1.2rem; 
     }
   
     .text2, .text3 {
-      font-size: 1rem; /* Reduced font size for mobile view */
+      font-size: 1rem; 
     }
   
     .button, .button44, .button2 {
-      width: 100%; /* Adjusted width for better fit on mobile */
-      padding: 0.5rem; /* Adjusted padding for better spacing on mobile */
-      font-size: 0.8rem; /* Reduced font size for mobile view */
+      width: 100%; 
+      padding: 0.5rem; 
+      font-size: 0.8rem;
     }
   
     .left, .right {
-      width: 100%; /* Adjusted width for better fit on mobile */
-      gap: 0.5rem; /* Adjusted gap for better spacing on mobile */
+      width: 100%; 
+      gap: 0.5rem; 
     }
   
     .number, .vector {
-      font-size: 0.8rem; /* Reduced font size for mobile view */
+      font-size: 0.8rem; 
     }
   }
   

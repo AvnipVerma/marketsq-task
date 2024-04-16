@@ -6,7 +6,7 @@ import QA from "../QA/QA";
 import Orders from '../Orders/Orders';
 
 function Profile() {
-    const [activeComponent, setActiveComponent] = useState('orders'); // default active component
+    const [activeComponent, setActiveComponent] = useState('orders'); 
 
     const renderComponent = () => {
         switch (activeComponent) {
