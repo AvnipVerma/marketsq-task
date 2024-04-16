@@ -68,18 +68,34 @@
       opacity: 0.5;
     }
   }
-  
-@media (max-width: 768px) {
-    .container2 {
-        display: flex;
-        justify-content: space-between;
-        /* align-items: center; */
-        gap: 29rem;
 
+  @media (max-width: 768px) {
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container3 {
+        margin-bottom: 1rem;
+    }
+
+    .container4,
+    .container6 {
+        padding: 0.5rem;
+        font-size: 0.9rem;
     }
 
     .container5 {
-        /* gap: 0.5rem; */
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .icon {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    .line {
+        padding-top: 0.2rem;
     }
 }
-  

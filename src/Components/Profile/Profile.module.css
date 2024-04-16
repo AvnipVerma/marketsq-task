@@ -219,6 +219,7 @@
       flex-direction: column;
       align-items: center;
       margin-top: 1rem; /* Adjusted margin for better spacing */
+      /* margin-left: rem; */
       width: 100%;
   }
   

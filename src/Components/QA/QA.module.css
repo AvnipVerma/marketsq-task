@@ -109,12 +109,12 @@
         .container {
             display: flex;
             flex-direction: column;
-            width: 100%; /* Adjusted width for better fit on mobile */
+            width: 85%; /* Adjusted width for better fit on mobile */
             padding: 1rem; /* Added padding for better spacing */
         }
     
         .searchContainer {
-            gap: 2rem; /* Reduced gap for better spacing on mobile */
+            gap: 1rem; /* Reduced gap for better spacing on mobile */
             flex-direction: column; /* Changed to column for better layout on mobile */
             width: 100%;
             margin-bottom: 1rem; /* Added margin bottom for better spacing */
@@ -142,7 +142,7 @@
         .button {
             background-color: black;
             color: white;
-            padding: 0.5rem 1.5rem; /* Adjusted padding for better spacing */
+            padding: 1rem 5rem; 
             font-size: 0.9rem; /* Reduced font size for mobile view */
         }
     
